@@ -1,0 +1,1 @@
+UPDATE projeto SET name = $2, description = $3, stack = $4, link = $5 WHERE id = $1 RETURNING *;

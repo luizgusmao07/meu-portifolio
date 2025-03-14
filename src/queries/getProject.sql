@@ -1,0 +1,1 @@
+SELECT * FROM projeto WHERE id = $1;
